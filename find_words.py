@@ -14,7 +14,7 @@ def get_most_common_words(file_path, num_words=10):
             text += page.extract_text()
         
         # 숫자, 전치사, 문장기호, 5자 이상 단어 추출
-        words = re.findall(r'\b(?!(?:in|on|at|for|to|with|a|an|the|[.,!?;:]|\d|\b\w{1,4}\b))\w+\b', text, flags=re.IGNORECASE)
+        words = re.findall(r'\b(?!(?:in|on|at|for|to|with|a|an|the|which|whose|where|[.,!?;:]|\d|\b\w{1,4}\b))\w+\b', text, flags=re.IGNORECASE)
         
         # 단어 빈도수 계산
         word_counter = Counter(words)

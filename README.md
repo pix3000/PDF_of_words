@@ -22,7 +22,6 @@ pages: 38
 positive: 35
 detectors: 29
 label: 28
-which: 27
 number: 27
 based: 24
 performance: 21
@@ -31,4 +30,5 @@ Proceedings: 20
 optimal: 17
 objects: 16
 Table: 16
+Vision: 16
 ```

@@ -13,13 +13,13 @@ def get_most_common_words(file_path, num_words):
         for page in reader.pages:
             text += page.extract_text()
         
-        # 숫자, 전치사, 문장기호, 5자 이상 단어 추출
+        # 숫자, 전치사, 문장기호, 5자 미만 단어 제거
         words = re.findall(r'\b(?!(?:in|on|at|for|to|with|a|an|the|which|whose|where|[.,!?;:]|\d|\b\w{1,4}\b))\w+\b', text, flags=re.IGNORECASE)
         
-        # 단어 빈도수 계산
+        # 단어 수 측정
         word_counter = Counter(words)
         
-        # 가장 많이 나온 단어들 반환
+        # 가장 많이 나온 단어 반환
         return word_counter.most_common(num_words)
 
 # 커맨드 라인 인자 처리

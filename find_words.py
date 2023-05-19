@@ -3,7 +3,7 @@ import re
 import PyPDF2
 from collections import Counter
 
-def get_most_common_words(file_path, num_words=10):
+def get_most_common_words(file_path, num_words):
     # PDF 문서 열기
     with open(file_path, 'rb') as file:
         reader = PyPDF2.PdfReader(file)

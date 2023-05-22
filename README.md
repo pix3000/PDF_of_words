@@ -1,6 +1,6 @@
 # PDF_of_words
-**find_words:** PDF 문서를 읽고 가장 많이 나온 단어를 내림차순으로 n개 출력해주는 파이썬 코드  
-**counter_words:** PDF 문서를 읽고 입력한 단어가 전체에서 몇 번 나오는 지 출력해주는 파이썬 코드
+>**find_words:** PDF 문서를 읽고 가장 많이 나온 단어를 내림차순으로 n개 출력해주는 파이썬 코드  
+>**counter_words:** PDF 문서를 읽고 입력한 단어가 전체에서 몇 번 나오는 지 출력해주는 파이썬 코드
   
 # find_words.py
 ```

@@ -30,28 +30,9 @@ Table: 16
 Vision: 16
 ```
 
-  
-  
-# counter_word.py
-```
-$ python3 counter_word.py [path to pdf] [word] 
-```  
-**path to pdf:** pdf의 경로 지정  
-**word:** 횟수를 알고 싶은 단어
-<br/>
-### Example
-```
-$ python3 find_words.py test.pdf correlated
-```  
-## Result  
-```
-The word "correlated" appears "2" times in the PDF document.
-```
-
-
     
   
-# counter_word2.py
+# counter_word.py
 ```
 $ python3 counter_word2.py [path to pdf] [word] 
 ```  

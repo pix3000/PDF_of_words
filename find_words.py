@@ -31,5 +31,6 @@ args = parser.parse_args()
 # 가장 많이 나온 단어 출력
 most_common_words = get_most_common_words(args.pdf_file, args.num_words)
 print(f'PDF NAME: {args.pdf_file}\n')
-for word, count in most_common_words:
-    print(f'{word}: {count}')
+
+for i, (word, count) in enumerate(most_common_words, 1):
+    print(f'[{i}] {word}: {count}')

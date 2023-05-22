@@ -1,7 +1,3 @@
-# PDF_of_words
->**find_words:** PDF 문서를 읽고 가장 많이 나온 단어를 내림차순으로 n개 출력해주는 파이썬 코드  
->**counter_words:** PDF 문서를 읽고 입력한 단어가 전체에서 몇 번 나오는 지 출력해주는 파이썬 코드
-  
 # find_words.py
 ```
 $ python3 find_words.py [path to pdf] -n [number of words] 
@@ -36,9 +32,9 @@ Vision: 16
 
   
   
-# counter_words.py
+# counter_word.py
 ```
-$ python3 counter_words.py [path to pdf] [word] 
+$ python3 counter_word.py [path to pdf] [word] 
 ```  
 **path to pdf:** pdf의 경로 지정  
 **word:** 횟수를 알고 싶은 단어
@@ -50,4 +46,24 @@ $ python3 find_words.py test.pdf correlated
 ## Result  
 ```
 The word "correlated" appears "2" times in the PDF document.
+```
+
+
+    
+  
+# counter_word2.py
+```
+$ python3 counter_word2.py [path to pdf] [word] 
+```  
+**path to pdf:** pdf의 경로 지정  
+**word:** 횟수를 알고 싶은 단어 및 영문을 한문으로 번역
+<br/>
+### Example
+```
+$ python3 counter_word2.py test.pdf optimization
+```  
+## Result  
+```
+The word "optimization" appears "8" times in the PDF document.
+optimization -> 최적화
 ```
